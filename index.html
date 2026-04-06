@@ -1,62 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>InspireNovaStudio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
-      text-align: center;
-    }
-    .container {
-      padding: 60px 20px;
-    }
-    h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 18px;
-      color: #94a3b8;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 12px 24px;
-      background: #3b82f6;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-    }
-    .btn:hover {
-      background: #2563eb;
-    }
-    footer {
-      margin-top: 60px;
-      font-size: 14px;
-      color: #64748b;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InspireNovaStudio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+p {
+  color: #94a3b8;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 28px;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #2563eb;
+}
+
+.card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 14px;
+  color: #64748b;
+}
+</style>
+
 </head>
+
 <body>
-  <div class="container">
-    <h1>InspireNovaStudio</h1>
-    <p>Creating simple, powerful apps to inspire your daily life.</p>
 
-    <a class="btn" href="https://play.google.com/store">View Our App</a>
+<div class="container">
+  <h1>InspireNovaStudio</h1>
+  <p>Simple, powerful apps designed to inspire your daily life.</p>
 
-    <br><br>
+  <a class="btn" href="https://play.google.com/store">Download App</a>
 
-    <a href="/privacy-policy/" style="color:#94a3b8;">Privacy Policy</a>
-
-    <footer>
-      <p>Contact: inspirenovastudio@gmail.com</p>
-    </footer>
+  <div class="card">
+    <h2>Daily Quotes</h2>
+    <p>Get daily inspiration with powerful quotes to boost your mindset and productivity.</p>
   </div>
+
+  <div class="card">
+    <h2>Why Choose Our Apps?</h2>
+    <p>✔ Clean design<br>
+       ✔ Fast performance<br>
+       ✔ Simple and useful features</p>
+  </div>
+
+  <p style="margin-top:40px;">
+    <a href="/privacy-policy/" style="color:#94a3b8;">Privacy Policy</a>
+  </p>
+
+</div>
+
+<footer>
+  <p>Contact: inspirenovastudio@gmail.com</p>
+</footer>
+
 </body>
 </html>
